@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		$("<script></script>").appendTo('head').html('$(document).ready(function(){ \
 			$("*").mouseover(function() { $(".p-channel_sidebar__name:contains(\'' + value[0] + '\')").each(function(){$(this).text("' + value[1] + '");}); }); \
 			$("*").mouseover(function() { $("a.message_sender:contains(\'' + value[0] + '\')").each(function(){$(this).text("' + value[1] + '");}); }); \
-			$("*").mouseover(function() { $("button#im_title:contains(\'' + value[0] + '\')").each(function(){$(this).text("' + value[1] + '");}); });});');
+			$("*").mouseover(function() { $("button#im_title:contains(\'' + value[0] + '\')").each(function(){$(this).text("' + value[1] + '");}); });} \
+		');
 	});
 });
