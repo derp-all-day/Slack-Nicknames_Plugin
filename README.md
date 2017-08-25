@@ -1,2 +1,17 @@
-# Slack-Nicknames_Plugin
-A plugin for Slack that allows you to set nicknames for your contacts.
+# Slack Nicknames Plugin
+
+// * * * * * * * *
+// *    About    *
+// * * * * * * * *
+// Author: Andrew J. Blalock
+// Date: 8/24/2017
+// Description: Set Nicknames in Slack's desktop application.
+//
+// * * * * * * * * *
+// *  INSTRUCTIONS *
+// * * * * * * * * *
+// Append this to the end of the file:
+// C:\Users\{USERNAME}\AppData\Local\slack\app-{SLACK-VERSION}\resources\app.asar.unpacked\src\static\ssb-interop.js
+//
+// Add entries in the array 'nicks'. The first value it the persons 
+// display name, and the second is the nickname to display for them.
